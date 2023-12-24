@@ -47,7 +47,7 @@ public class hello implements Servlet{
 	public void init()
 	2.返回servlet的配置
 	public ServletConfig getServletConfig()
-	3.处理浏览器请求*浏览器每次请求servlet时，均调用一次service*tomcat调用该方法        时，会把HTTP请求的数据封装成实现了ServletRequest接口的request对象*通过该对象，      servlet可以得到用户提交的数据
+	3.处理浏览器请求*浏览器每次请求servlet时，均调用一次service*tomcat调用该方法        时，会把HTTP请求的数据封装成实现了ServletRequest接口的request对象*通过该对象，servlet可以得到用户提交的数据
 	public void service(ServletRequest,ServletResponse)
 	4.返回servlet信息
 	public String getServletInfo()

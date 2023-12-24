@@ -1,5 +1,5 @@
 ### 概述
-- JDBC是Java提供的一套用于数据库操作的接口==API==，程序员面向接口编程，不同的数据库厂商需针对这套接口提供不同的实现（*MySQL实现接口/类，jar[mysql驱动文件]*）
+- JDBC是Java提供的一套用于数据库操作的接口==API==，程序员面向接口编程，不同的数据库厂商需针对这套接口提供不同的实现（*MySQL实现接口/类，jar-----mysql驱动文件*）
 ### JDBC实现过程
 *前置工作：将mysql.jar*放入libs文件夹，并加入到项目。在当前主类导入com.mysql.jdbc.Driver
 1. 注册驱动
@@ -43,16 +43,16 @@
 	  ```Java
 	  new Properties().load(new InputStream("filepath"))
 	  String user=p.getProperty("user")
-	  
- ```
+```
+
 ### ResultSet（结果集）
 
 是通过执行查询数据库的语句生成的数据表。ResultSet对象保持一个光标指向当前数据行，next() 让光标下移
 ```java
-ResultSet resultset = statement.executeQuery(sql)
-while(resultset.next()) {
-	int id = resultset.getInt(1) //获取该行第一列
-	Data data = resultset.getDate(2) //获取该行第二列
+	ResultSet resultset = statement.executeQuery(sql);
+	while(resultset.next()) {
+		int id = resultset.getInt(1) //获取该行第一列
+		Data data = resultset.getDate(2) //获取该行第二列
 }
 ```
 ### Statement

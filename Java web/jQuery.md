@@ -10,7 +10,7 @@
 	- `$(function () {})   等价  window.onload = function () {}
 	- `$("#btn01") 底层 : document.getElementById("btn01")`  返回的对象就是 jquery 对象 ( 即进行了封装 ) ，而不是原生的 dom 对象
 	- 获取对象的方法是 $("#id"), 必须在 id 前有#
-	- 规定 jquery 对象的命名以 $ 开头~~不是必须，但是约定
+	- 规定 jquery 对象的命名以 $ 开头 ~~不是必须，但是约定
 
 ### jQuery和DOM对象
 
