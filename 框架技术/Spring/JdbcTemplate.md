@@ -4,8 +4,8 @@
 - 实现过程
 	- 配置jdbc.properties文件，参考[[JDBC API]]
 	
-	- 配置jdbcTemplate.xml，引入属性文件；配置数据源对象DataSourcec参考[[IOC]]中 配置属性文件
-	- 对Spring来说，它也是一个bean对象，初始化与getBean方式同上[[IOC]]
+	- 配置jdbcTemplate.xml，引入属性文件；配置数据源对象DataSourcec参考[[Spring基础]]中 配置属性文件
+	- 对Spring来说，它也是一个bean对象，初始化与getBean方式同上[[Spring基础]]
 	- CRUD方式：
 	 `Sting sql="insert into monster values(?,?,?)";
 	 `update monster set name=? where id=?
@@ -22,7 +22,7 @@
 		@ resource //自动装配属性对象
 		private JdbcTemplate jdbcTemplate;
 		public void save(Monster monster){//完成保存任务
-			sql=
+			sql=xxx
 			`int affected=jdbcTemplate.update(sql,monster.getId(),monster.getName())
 		}
 	}

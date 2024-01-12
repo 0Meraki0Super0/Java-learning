@@ -21,7 +21,7 @@
 	- `JSON.parse( jsonString ) ：将一个 json 为 字符串转换成为 json 对象
 4. **JSON 在 在 Java 中应用场景
 	- Javabean对象 和  json字符串 的转换
-		 *注：**JavaBeans**是[Java](https://zh.wikipedia.org/wiki/Java "Java")中一种特殊的[类](https://zh.wikipedia.org/wiki/%E7%B1%BB_(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6) "类 (计算机科学)")，可以将多个[对象](https://zh.wikipedia.org/wiki/%E5%AF%B9%E8%B1%A1_(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6) "对象 (计算机科学)")封装到一个对象（bean）中。特点是可[序列化](https://zh.wikipedia.org/wiki/%E5%BA%8F%E5%88%97%E5%8C%96 "序列化")，提供[无参构造器](https://zh.wikipedia.org/w/index.php?title=%E6%97%A0%E5%8F%82%E6%9E%84%E9%80%A0%E5%99%A8&action=edit&redlink=1)，提供getter和setter方法访问对象的属性。名称中的“Bean”是用于Java的可重用软件组件的惯用叫法。*
+		 *注：**JavaBeans**是[Java](https://zh.wikipedia.org/wiki/Java "Java")中一种特殊的类，可以将多个对象封装到一个对象（bean）中。特点是可[序列化](https://zh.wikipedia.org/wiki/%E5%BA%8F%E5%88%97%E5%8C%96 "序列化")，提供无参构造器，提供getter和setter方法访问对象的属性。名称中的“Bean”是用于Java的可重用软件组件的惯用叫法。*
 		 1. 测试类应继承TypeToken泛型类并指定泛型
 		 2. new Gson()对象，java对象book
 		 3. `String bookStr=gson.toJson(book)`

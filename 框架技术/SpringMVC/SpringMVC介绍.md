@@ -18,13 +18,14 @@
 11. 前端控制器返回响应
 
 ![[Pasted image 20231218184403.png]]
+
 ### @RequestMapping
 
 - @RequestMapping注解可修饰类、方法。表示类请求页面，方法请求请求页面
 	value=“/xx” 指定控制器的某个方法的请求url——请求映射到某个页面，**不能重复**
 - 可指定请求方式：`@RequestMapping(value="/buy",method=RequestMethod.GET)
 	== `GetMapping(value="/buy")
-- 可使用占位符，**获取到前端页面的参数**
+- 可使用占位符，==**获取到前端页面的参数**==
 	`<a href = "user/reg/wr/18">哈哈哈</a>`
 	
 	``@RequestMapping(value="/reg/{username}/{userid}")
@@ -88,36 +89,11 @@
 		*注：若该id不存在，任按照默认处理机制*
 	- SpringMVC 调用自定义视图的 renderMergedOutputModel 方法渲染视图
 	 
-3. 目标方法 指定转发 & 重定向
+3. 目标方法 **指定转发 & 重定向**
 	- 默认为请求转发，如`@RequestMapping(value="/test")
 	- 重定向: 设置`value=“/order”`，方法 `return "redirect:/login.jsp"
 	- 直接指定转发：`return "forward:/xx/xx/view.jsp"`
 		*注：不能重定向到/WEB-INF目录*
 
-### 手动实现SpringMVC
-
-主要流程
-- 浏览器发出请求URL到汤姆猫，**汤姆猫启动时创建前端控制器，前端控制器创建Spring容器并初始化
-	- 编写Spring容器类，创建集合保存扫描包的全路径。
-	- 编写扫描方法，通过类加载器得到指定包对应的工作路径。**在IO中，把目录视为一个文件**，创建文件对象并遍历，判断是目录则递归扫描；否则拿到全路径并转为/形式，放入单例池ioc
-	- 前端控制器编写初始化方法
-- 完成URL和控制器方法映射
-	- 编写Handler类，记录**请求URL** 和**控制器方法**的映射关系
-	- 前端控制器中，编写映射方法，遍历ioc，得到bean的class对象，筛选带有@controller的类；遍历所有方法，筛选带有@RequestMapping的方法，@RequestMapping内的值即为映射路径。将 ”URL-映射路径，@controller“ 放入Hander的集合
-- 前端控制器分发请求到目标方法
-	- 编写方法，通过request对象返回对应的Handler对象   ~~若无，返回null
-	- 编写方法 分发请求。用请求URL创建Handler对象，若不为空则匹配成功，反射调用控制器的方法
-- web.xml动态获取Spring配置文件
-- 自定义@Service注解
-	- 获取带有@Service的实现类，得到注解的value值。
-	- 若未指定value值，则通过反射得到所有接口；遍历接口，获取接口名称并改为首字母小写，通过多个接口名来注入（beanname-bean放入ioc）/ 或直接通过类名首字母小写注入
-- 自定义@AutoWired注解
-- 自定义@RequestParam获取控制器方法的参数
-	- 应考虑目标方法的形参是多种多样的，不一定只有request , response。可**把需要传递给目标方法的 实参 封装到参数数组**
-	- 
 
 
-
-
-
-### 数据格式化

@@ -1,5 +1,6 @@
 {
   "spellcheck": false,
   "smartIndentList": true,
-  "strictLineBreaks": false
+  "strictLineBreaks": false,
+  "alwaysUpdateLinks": true
 }

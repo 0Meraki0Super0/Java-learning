@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1bccc9d373bcb810",
+            "id": "6ea3bba1d744ff03",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "框架技术/Spring/AOP.md",
+                "file": "微服务/Spring cloud/Spring Cloud_Alibaba.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "框架技术/Spring/AOP.md",
+                "file": "微服务/Spring cloud/Spring Cloud_Alibaba.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "框架技术/Spring/AOP.md",
+                "file": "微服务/Spring cloud/Spring Cloud_Alibaba.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "框架技术/Spring/AOP.md"
+                "file": "微服务/Spring cloud/Spring Cloud_Alibaba.md"
               }
             }
           }
@@ -141,61 +141,62 @@
   "left-ribbon": {
     "hiddenItems": {
       "graph:查看关系图谱": false,
-      "switcher:打开快速切换": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
+      "switcher:打开快速切换": true,
+      "canvas:新建白板": true,
+      "daily-notes:打开/创建今天的日记": true,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "remotely-save:Remotely Save": false
+      "remotely-save:Remotely Save": true
     }
   },
-  "active": "cd80bc179351ddc8",
+  "active": "6ea3bba1d744ff03",
   "lastOpenFiles": [
-    "框架技术/Spring/IOC.md",
+    "Java基础/基础补充/Lambda表达式.md",
+    "Vue项目/简介.md",
+    "Java基础/基础补充",
+    "微服务/SpringBoot/未命名.md",
+    "微服务/SpringBoot/Lombok.md",
+    "微服务/Spring cloud/Spring Cloud_Alibaba.md",
+    "Pasted image 20240110091251.png",
+    "Pasted image 20240109164003.png",
+    "数据库/Redis/Redis介绍.md",
+    "框架技术/MyBatis/MyBatis介绍.md",
+    "框架技术/MyBatis/MyBatis原理.md",
+    "微服务/SpringBoot/SB介绍.md",
+    "微服务/SpringBoot/注解.md",
+    "微服务/SpringBoot/异常处理.md",
+    "微服务/SpringBoot/转换器.md",
+    "Pasted image 20240105195552.png",
+    "Pasted image 20240105191744.png",
+    "微服务/Spring cloud",
+    "微服务/SpringBoot/内容协商.md",
+    "微服务/SpringBoot/Thymeleaf.md",
+    "微服务/SpringBoot/文件上传.md",
+    "微服务/SpringBoot/Yaml.md",
     "框架技术/Spring/AOP.md",
-    "框架技术/SpringMVC/SpringMVC.md",
-    "Java web/HTTP，HTTPS.md",
-    "Java web/Tomcat+Servlet.md",
-    "框架技术/Spring/JdbcTemplate.md",
-    "Java基础/JDBC和连接池/JDBC API.md",
-    "Java基础/MySQL/Mysql事务.md",
-    "框架技术/Spring/事务.md",
-    "Java web/jQuery.md",
+    "框架技术/Spring/IOC.md",
     "框架技术/Spring/Spring底层实现.md",
-    "Java web/Listener+Filter.md",
-    "Pasted image 20231218184403.png",
-    "框架技术/SpringMVC",
-    "Java基础/JDBC和连接池/批处理.md",
-    "Pasted image 20231213093212.png",
-    "Java基础/JDBC和连接池/JDBC Utils.md",
-    "Java基础/网络编程/TCP字节流编程.md",
-    "Pasted image 20231215115945.png",
-    "Java基础/网络编程/TCP，UDP.md",
-    "Pasted image 20231215090800.png",
     "Java web/JSON & Ajax.md",
-    "Java web/JS+DOM.md",
-    "框架技术/Spring",
-    "Java基础/网络编程/TCP.md",
+    "Java基础/网络编程/TCP，UDP.md",
+    "Java web/jQuery.md",
+    "Java web/HTTP，HTTPS.md",
     "Java web/ThreadLocal.md",
+    "Java web/Listener+Filter.md",
+    "Pasted image 20240104210008.png",
     "Java web/web文件上传下载.md",
-    "Pasted image 20231213093049.png",
-    "Pasted image 20231213092736.png",
-    "框架技术",
-    "Pasted image 20231209145117.png",
-    "Pasted image 20231209133707.png",
-    "Pasted image 20231209111457.png",
-    "Web路径+会话/未命名.md",
-    "Web路径+会话",
-    "Pasted image 20231205132235.png",
-    "Java基础/网络编程",
-    "Java基础/JDBC和连接池/数据库连接池.md",
-    "Java web",
-    "Pasted image 20231201134044.png.md",
-    "Java基础/MySQL/MySQL存储引擎.md",
-    "未命名.canvas",
-    "Java基础",
-    "Java/JDBC和连接池/未命名",
-    "Java基础/JDBC和连接池",
-    "Java基础/MySQL"
+    "Pasted image 20231215115945.png",
+    "Pasted image 20231230173404.png",
+    "Vue项目",
+    "微服务/SpringBoot",
+    "微服务",
+    "数据库/Redis",
+    "数据库",
+    "Pasted image 20231213093212.png",
+    "Pasted image 20231226103556.png",
+    "Pasted image 20231226091259.png",
+    "框架技术/MyBatis",
+    "框架技术/SpringMVC",
+    "框架技术/Spring",
+    "未命名.canvas"
   ]
 }

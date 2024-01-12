@@ -39,21 +39,24 @@
 
 - 是一个供其他Java程序 (Servlet引擎) 调用的Java类，不能独立运行
 - Servlet常驻内存(可以理解为存在Tomcat的哈希表中)，是==单例==
+- 理解：Servlet（服务器端小程序）是一种用于在服务器上扩展请求-响应模型的Java类。它在Java编程语言中编写，通常用于生成动态网页内容。通常运行在支持Java的Web服务器上，如Apache Tomcat或Jetty。它们与常规的静态Web页面不同，后者的内容在服务器上提前准备好，并直接发送到客户端。相反，Servlet能够根据请求的参数动态生成内容。这使得Servlet成为处理表单提交、用户登录、数据库访问等任务的理想选择。
+	
+
 ##### 手动开发Servlet
 1. 编写hello类实现servlet接口
-```java
-public class hello implements Servlet{
-	1.初始化servlet，只在创建实例时调用一次
-	public void init()
-	2.返回servlet的配置
-	public ServletConfig getServletConfig()
-	3.处理浏览器请求*浏览器每次请求servlet时，均调用一次service*tomcat调用该方法        时，会把HTTP请求的数据封装成实现了ServletRequest接口的request对象*通过该对象，servlet可以得到用户提交的数据
-	public void service(ServletRequest,ServletResponse)
-	4.返回servlet信息
-	public String getServletInfo()
-	5.servlet销毁时调用，仅一次
-	public void destroy()
-}
+	```java
+		public class hello implements Servlet{
+		1.初始化servlet，只在创建实例时调用一次
+		public void init()
+		2.返回servlet的配置
+		public ServletConfig getServletConfig()
+		3.处理浏览器请求*浏览器每次请求servlet时，均调用一次service*tomcat调用该方法        时，会把HTTP请求的数据封装成实现了ServletRequest接口的request对象*通过该对象，servlet可以得到用户提交的数据
+		public void service(ServletRequest,ServletResponse)
+		4.返回servlet信息
+		public String getServletInfo()
+		5.servlet销毁时调用，仅一次
+		public void destroy()
+	}
 ```
 2. 为hello提供对外访问地址 -->配置 web.xml文件
 	- servlet-name : 唯一
@@ -84,7 +87,7 @@ public class hello implements Servlet{
 	 <*整个生命周期内仅调用一次init()*>
 2. 处理浏览器请求
 	- 每次收到一个HTTP请求，服务器（Tomcat）创建一个新进程
-	- 而且创建一个封装HTTP请求的servletrequest对象 和代表响应的servletreponse
+	- **而且创建一个封装HTTP请求的servletrequest对象 和代表响应的servletreponse**
 	- 最后调用service()，将请求和响应对象作为形参传递
 3. 终止阶段
 	- servlet容器/web应用终止，调用destroy()。
@@ -193,4 +196,4 @@ public class hello implements Servlet{
 		- 可以转发到WEB-INF目录下
 		- 
 - **请求重定向
-- 
+- 浏览器请求地址变化

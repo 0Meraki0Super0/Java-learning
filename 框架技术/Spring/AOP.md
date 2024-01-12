@@ -32,7 +32,7 @@
              */
              
             @Override
-            public Object invoke(Object o, Method method, Object[] args)  throws Throwable {
+            public Object invoke(Object o,Method method, Object[] args)throws Throwable             {
                 System.out.println("交通工具开始运行了....");
                 Object result = method.invoke(target_vehicle, args);
                 System.out.println("交通工具停止运行了....");
@@ -40,7 +40,7 @@
             }
         };  <----匿名内部类结束
         //创建代理对象，
-	    Vehicle proxy =(Vehicle)Proxy.newProxyInstance(classLoader,      interfaces, invocationHandler);
+	    Vehicle proxy=)Proxy.newProxyInstance(classLoader,interfaces, invocationHandler)
         return proxy;
     }
 }```
@@ -59,7 +59,7 @@
         Vehicle proxy = vehicleProxyProvider.getProxy();
         //此处执行到代理对象的invoke方法,传入参数method=run(),Object=vehicle(由proxy编译类型获取)，不执行Car类自己的run()方法
         proxy.run();
-        //本例中代理类invoke方法中有method.invoke(target_vehicle),这时通过反射+动态绑定，执行到被代理对象（ship）的run()方法执行。
+        //本例中代理类invoke方法中有method.invoke(target_vehicle),这时通过反射+动态绑定，执行到被代理对象（ship）的fly()方法执行。
         String result = proxy.fly(10000);
     }```
     
@@ -184,5 +184,6 @@ public class SmartAnimalAspect {
 - AOP与BeanPostProcessor：
 	- AOP底层基于BeanPostProcessor机制。即在Bean创建好后，根据是否需要AOP处理来决定返回代理对象还是原生Bean
 	- 以上逻辑在后置处理器的后置操作内，运用动态代理来生成代理对象
+
 
 

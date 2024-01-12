@@ -16,6 +16,8 @@
 		sout(new String(buf,0,readLen)) //根据读取实际长度显示内容
 ```
 5. 写入数据到数据通道，结束写入标记
+	- `i.write("1111")`
+	- `socket.shutdownInput()`
 6. 关闭流和socket
 	```java
 	i.close()
@@ -41,10 +43,11 @@
 2. 
 ### 字符流编程
 
-- 将字节流转为字符流——转换流
+——广泛使用
+- 将字节流转为字符流——==转换流==
 	- `OutputStreamWriter(字节流)
 	- `IntputStreamReader(字节流)
-	- `BufferedWriter bufferedWriter = new BufferedWriter(outputStreamWriter)
-- 设置写入标记的另一种方式
+	- `BufferedWriter bufferedWriter = new BufferedWriter (outputStreamWriter)
+- 设置写入标记的另一种方式。
 	- `writer.newLine()
 	- *注：此时服务器应使用 readLine() 读取*
