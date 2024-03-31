@@ -40,7 +40,7 @@
             }
         };  <----匿名内部类结束
         //创建代理对象，
-	    Vehicle proxy=)Proxy.newProxyInstance(classLoader,interfaces, invocationHandler)
+	    Vehicle proxy=Proxy.newProxyInstance(classLoader,interfaces, invocationHandler)
         return proxy;
     }
 }```
@@ -84,9 +84,11 @@
 	@ Component 
 	
 	
-//原生Spring会自动把SmartAnimalAspect当作组件 注入容器（getBean机制类似getProxy,会返回一个代理对象）
+//原生Spring会自动把SmartAnimalAspect当作组件 注入容器
+（getBean机制类似getProxy,会返回一个代理对象）
 public class SmartAnimalAspect {
     //定义一个切入点, 在后面使用时可以直接引用, 提高了复用性
+    // 注意：此处指定切入方法！！不指定则全部切入
     @Pointcut(value = "execution(public float 全类名.getSum(float, float)))")
 	public void myPointCut() {
     }

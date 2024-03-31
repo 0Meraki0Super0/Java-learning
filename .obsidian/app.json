@@ -2,5 +2,6 @@
   "spellcheck": false,
   "smartIndentList": true,
   "strictLineBreaks": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "promptDelete": false
 }

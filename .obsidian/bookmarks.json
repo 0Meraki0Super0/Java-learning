@@ -12,6 +12,13 @@
       "ctime": 1702795774562,
       "path": "框架技术/Spring/Spring基础.md",
       "subpath": "#^39d9df"
+    },
+    {
+      "type": "file",
+      "ctime": 1709475526125,
+      "path": "项目/天域世界官网后台管理系统.md",
+      "subpath": "#^1da0e7",
+      "title": "目标方法就是在加了@CheckPower注解的方法"
     }
   ]
 }
