@@ -145,15 +145,14 @@
       "canvas:新建白板": true,
       "daily-notes:打开/创建今天的日记": true,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "remotely-save:Remotely Save": true
+      "command-palette:打开命令面板": false
     }
   },
   "active": "3d39ebf62d2871cd",
   "lastOpenFiles": [
-    "项目/天域世界官网后台管理系统.md",
+    "项目/学成在线项目.md",
     "项目/古村落APP.md",
-    "项目/项目.md",
+    "项目/天域世界官网后台管理系统.md",
     "Java web/ThreadLocal.md",
     "算法/思路总结.md",
     "算法/SQL.md",
