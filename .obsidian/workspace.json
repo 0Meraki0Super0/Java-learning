@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目/古村落APP.md",
+                "file": "算法/思路总结.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "17e89704a303cd7f",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "项目/古村落APP.md",
+                "file": "算法/思路总结.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "项目/古村落APP.md",
+                "file": "算法/思路总结.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "项目/古村落APP.md"
+                "file": "算法/思路总结.md"
               }
             }
           }
@@ -149,18 +150,18 @@
   },
   "active": "3d39ebf62d2871cd",
   "lastOpenFiles": [
-    "项目/学成在线项目.md",
+    "算法/SQL.md",
+    "算法/思路总结.md",
+    "算法/语法特性.md",
     "项目/古村落APP.md",
+    "项目/学成在线项目.md",
     "项目/天域世界官网后台管理系统.md",
     "Java web/ThreadLocal.md",
-    "算法/思路总结.md",
-    "算法/SQL.md",
     "面试、笔试记录/百胜-西安研发部门.md",
     "面试、笔试记录/腾讯-后台开发.md",
     "框架技术/Spring/AOP.md",
     "框架技术/SpringMVC/自定义拦截器.md",
     "Pasted image 20240329150825.png",
-    "算法/语法特性.md",
     "算法/数组.md",
     "算法/ACM模式输入输出.md",
     "算法/递归与回溯.md",
