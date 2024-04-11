@@ -1,3 +1,9 @@
+### 用法
+- concat(name,' ','City')：空格手动拼
+- concat('%',name,'%')：拼接like匹配条件（包含name）
+- concat(name,'%')：可表示以name开头并比name长
+
+
 ### 条件查询
 
 - 查询去重数据：

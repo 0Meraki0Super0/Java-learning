@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/语法特性.md",
+                "file": "算法/SQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "17e89704a303cd7f",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/语法特性.md",
+                "file": "算法/SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/语法特性.md",
+                "file": "算法/SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/语法特性.md"
+                "file": "算法/SQL.md"
               }
             }
           }
@@ -149,6 +150,13 @@
   },
   "active": "3d39ebf62d2871cd",
   "lastOpenFiles": [
+    "算法/语法特性.md",
+    "算法/思路总结.md",
+    "算法/ACM模式输入输出.md",
+    "算法/SQL.md",
+    "算法/数组.md",
+    "数据库/MySQL/Mysql事务.md",
+    "02-java_面试指北PDF版本（最新）/项目经验常见问题解答（补充） · .pdf",
     "02-java_面试指北PDF版本（最新）/面经/程序员简历到底该怎么写？ · .pdf",
     "02-java_面试指北PDF版本（最新）/面经/程序员如何有效地提高工作效率？ · .pdf",
     "02-java_面试指北PDF版本（最新）/面经/程序员如何快速学习新技术？ · .pdf",
@@ -158,12 +166,7 @@
     "02-java_面试指北PDF版本（最新）/面经/如何在绩效考核中脱颖而出？ · .pdf",
     "02-java_面试指北PDF版本（最新）/面经/双非本科、0实习、0比赛项目经历。3个月上岸百度 · .pdf",
     "02-java_面试指北PDF版本（最新）/面经/从考研失败到收获到自己满意的Offer · .pdf",
-    "02-java_面试指北PDF版本（最新）/面经/五面阿里，终获 offer! · .pdf",
-    "02-java_面试指北PDF版本（最新）/面经/4年经验，面试Bigo挂在了第三轮 · .pdf",
     "02-java_面试指北PDF版本（最新）/练级攻略篇 · _00.png",
-    "算法/思路总结.md",
-    "算法/SQL.md",
-    "算法/语法特性.md",
     "项目/古村落APP.md",
     "项目/学成在线项目.md",
     "项目/天域世界官网后台管理系统.md",
@@ -173,8 +176,6 @@
     "框架技术/Spring/AOP.md",
     "框架技术/SpringMVC/自定义拦截器.md",
     "Pasted image 20240329150825.png",
-    "算法/数组.md",
-    "算法/ACM模式输入输出.md",
     "算法/递归与回溯.md",
     "算法/二叉树.md",
     "算法/链表.md",
