@@ -36,3 +36,5 @@
 	- `SELECT gender,university,COUNT(device_id) AS 'user_num', AVG(active_days_within_30) AS 'avg_active_day',AVG(question_cnt) AS 'avg_question_cnt' FROM user_profile GROUP BY gender,university`
 
 ### 多表查询
+
+明天再说

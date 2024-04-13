@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/SQL.md",
+                "file": "算法/思路总结.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/SQL.md",
+                "file": "算法/思路总结.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/SQL.md",
+                "file": "算法/思路总结.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/SQL.md"
+                "file": "算法/思路总结.md"
               }
             }
           }
@@ -152,8 +152,8 @@
   "lastOpenFiles": [
     "算法/语法特性.md",
     "算法/思路总结.md",
-    "算法/ACM模式输入输出.md",
     "算法/SQL.md",
+    "算法/ACM模式输入输出.md",
     "算法/数组.md",
     "数据库/MySQL/Mysql事务.md",
     "02-java_面试指北PDF版本（最新）/项目经验常见问题解答（补充） · .pdf",
