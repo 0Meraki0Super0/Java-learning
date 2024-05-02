@@ -11,9 +11,11 @@
             "id": "3d39ebf62d2871cd",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20240310161048.png"
+                "file": "算法/运算技巧.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pasted image 20240310161048.png",
+                "file": "算法/运算技巧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pasted image 20240310161048.png",
+                "file": "算法/运算技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pasted image 20240310161048.png"
+                "file": "算法/运算技巧.md"
               }
             }
           }
@@ -148,8 +150,9 @@
   },
   "active": "3d39ebf62d2871cd",
   "lastOpenFiles": [
-    "Pasted image 20240329150825.png",
     "Pasted image 20231201134033.png",
+    "Pasted image 20240329150825.png",
+    "Pasted image 20240310161048.png",
     "算法/运算技巧.md",
     "算法/语法特性.md",
     "算法/ACM模式输入输出.md",
@@ -159,7 +162,6 @@
     "未命名",
     "Java web/HTTP，HTTPS.md",
     "02-java_面试指北PDF版本（最新）/如何准备系统设计面试？ · .pdf",
-    "Pasted image 20240310161048.png",
     "Android功能开发.md",
     "Java基础/基础补充/基础补充.md",
     "Java基础/JDBC和连接池/JDBC API.md",
