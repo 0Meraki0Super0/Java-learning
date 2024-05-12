@@ -2,7 +2,8 @@
 - concat(name,' ','City')：空格手动拼
 - concat('%',name,'%')：拼接like匹配条件（包含name）
 - concat(name,'%')：可表示以name开头并比name长
-
+- char_length(string)：返回字符串长度
+- length(string)：字符串的字节数
 
 ### 条件查询
 
