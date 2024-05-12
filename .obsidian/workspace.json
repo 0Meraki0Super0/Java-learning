@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/语法特性.md",
+                "file": "算法/SQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "17e89704a303cd7f",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/语法特性.md",
+                "file": "算法/SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/语法特性.md",
+                "file": "算法/SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/语法特性.md"
+                "file": "算法/SQL.md"
               }
             }
           }
@@ -150,8 +149,8 @@
   },
   "active": "3d39ebf62d2871cd",
   "lastOpenFiles": [
-    "算法/ACM模式输入输出.md",
     "算法/语法特性.md",
+    "算法/ACM模式输入输出.md",
     "算法/思路总结.md",
     "算法/运算技巧.md",
     "Pasted image 20231201134033.png",
